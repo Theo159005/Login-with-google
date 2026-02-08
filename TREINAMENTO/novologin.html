@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uma Pagina de Login">
+    <meta name="author" content="Theo Barbosa Colen">
+    <link rel="stylesheet" href="newlogin.css">
+    <title>Página de login</title>
+</head>
+<body>
+    <header>
+        <h1>Faça seu login</h1>
+    </header>
+    
+        <form action="index.html" method="get">
+            <fieldset class="email"> 
+                <legend> Seu  primeiro nome:</legend>
+                <input type="text" name="name" minlength="2" required>
+                <br>
+                
+                <label for="lastname"> Seu ultimo nome: </label>
+                <br>
+                <input type="text" name="lastname" required>
+            </fieldset>
+            <fieldset class="email">
+                <legend>
+                    Digite seu email:
+                </legend>
+                <input type="email" name="email" required>
+                <br>
+                <label for="password"> Digite sua senha:</label>
+                <br>
+                <input type="password" name="password" required>
+            
+            <br>
+            <div id="termoparadireita"> 
+                    <input type="checkbox" name="term" required id="terms"> 
+                    <label for="terms">Aceite os termos
+
+                    </label>
+                </fieldset>
+            </div> 
+            
+            <button type="submit"> Enviar</button>
+
+        </form>
+
+        
+    
+    
+</body>
+</html>
